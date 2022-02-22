@@ -1,0 +1,136 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  background-color: white;
+  max-width: 600px;
+}
+
+.wrapper {
+  width: 100vh;
+  table-layout: fixed;
+  background-color: white;
+  padding-bottom: 60px;
+}
+.main {
+  background-color: white;
+  width: 100vh;
+  margin: 0 auto;
+  max-width: 600px;
+  border-spacing: 0;
+  font-family: Verdana;
+  color: rgb(49, 49, 49);
+}
+.topBorder {
+  background-color: rgb(49, 49, 49);
+  height: 8px;
+}
+.logo {
+  display: flex;
+  position: relative;
+}
+.logoImg {
+  /* max-width: 100%; */
+  margin-left: 3rem;
+  margin-top: 1rem;
+  width: 80px;
+}
+.logoImg:hover {
+  background-color: whitesmoke;
+}
+
+.socialIcons {
+  display: inline-flex;
+  float: right;
+  margin-left: 15rem;
+  margin-top: 1rem;
+}
+
+.fbImg {
+  width: 40px;
+  padding: 3px;
+}
+.instaImg {
+  width: 40px;
+  padding: 3px;
+}
+.linkedinImg {
+  width: 40px;
+  padding: 3px;
+}
+.twitterImg {
+  width: 40px;
+  padding: 3px;
+}
+.fbImg:hover {
+  background-color: whitesmoke;
+}
+.instaImg:hover {
+  background-color: whitesmoke;
+}
+.linkedinImg:hover {
+  background-color: whitesmoke;
+}
+.twitterImg:hover {
+  background-color: whitesmoke;
+}
+.banner {
+  margin-top: 1px;
+}
+.bannerImg {
+  width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  text-align: center;
+  font-family: Verdana;
+}
+.one-col{
+  max-width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.learnMore {
+  margin: 0 auto;
+  display: block;
+  background-color: transparent;
+  border: 0;
+}
+.learnMore span {
+  display: block;
+  color: black;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  font-family:Verdana;
+}
+.learnMorebtn{
+  text-decoration: none;
+
+}
+.learnMore span:hover{
+  background-color: whitesmoke;
+}
+.footerBorder{
+  background-color: rgb(161, 158, 158);
+  height: 1px;
+  max-width: 100vh;
+}
+.contact {
+
+  text-align: center;
+  font-size: small;
+  padding: 5px;
+  line-height:5px ;
+
+
+
+}
