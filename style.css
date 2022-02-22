@@ -42,8 +42,8 @@ body {
 
 .socialIcons {
   display: inline-flex;
-  float: right;
-  margin-left: 15rem;
+  /* float: right; */
+  margin-left: 18rem;
   margin-top: 1rem;
 }
 
